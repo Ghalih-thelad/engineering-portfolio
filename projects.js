@@ -20,11 +20,6 @@ const PROJECTS = [
     shortTitle: "MICROTISSUE ROBOT",
     tagline: "VISION-GUIDED PRECISION, FROM IMAGE TO MOTION.",
     description: "A semi-autonomous system for locating and transferring microtissues between labware using a DOBOT MG400, machine vision, and a custom end-effector.",
-    model3d: {
-    src: "models/ALMA ARM.glb",
-    poster: "assets/CAD_loading.webp",
-    label: "3D VIEWER TEST",
-    },
     videos: [
       {
           type: "file",
