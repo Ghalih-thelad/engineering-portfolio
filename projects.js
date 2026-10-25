@@ -22,14 +22,14 @@ const PROJECTS = [
     description: "A semi-autonomous system for locating and transferring microtissues between labware using a DOBOT MG400, machine vision, and a custom end-effector.",
     model3d: {
     src: "models/ALMA ARM.glb",
-    poster: "assets/robot-lab.webp",
+    poster: "assets/CAD_loading.webp",
     label: "3D VIEWER TEST",
     },
     videos: [
       {
           type: "file",
           src: "videos/ALMA ARM.mp4",
-          poster: "assets/robot-lab.webp",
+          poster: "assets/vidthumbnail.webp",
           caption: "LIQUID HANDLING TEST"
       }
     ],
@@ -64,14 +64,14 @@ const PROJECTS = [
     description: "An ongoing personal research project focused on developing a physics-based simulation of a long-range Autonomous Underwater Vehicle (AUV) using ROS 2 and Gazebo. The project integrates a custom underwater vehicle model, hydrodynamic forces, buoyancy, twin-thruster propulsion, and controllable fins. It explores both manual ROV operation and autonomous stabilization through feedback control of depth, heading, pitch, and forward speed.",
     model3d: {
     src: "models/MRV Baracuda.glb",
-    poster: "assets/auv-competition.webp",
+    poster: "assets/CAD_loading.webp",
     label: "3D VIEWER TEST",
     },
     videos: [
       {
           type: "file",
           src: "videos/AUV Simulation.mp4",
-          poster: "assets/long-range-auv.webp",
+          poster: "assets/vidthumbnail.webp",
           caption: "GAZEBO / UNDERWATER VEHICLE SIMULATION"
       }
     ],
@@ -110,7 +110,7 @@ const PROJECTS = [
     description: "An updated competition AUV with modular mechanical packaging and a servo-driven scissor mechanism to retrieve and release underwater payloads. Made to participate in the Singapore AUV Challenge 2025.",
     model3d: {
     src: "models/MARVIC 2.5.glb",
-    poster: "assets/auv-competition.webp",
+    poster: "assets/CAD_loading.webp",
     label: "3D VIEWER TEST",
     },
     thumbnail: "assets/auv-competition.webp",
@@ -142,7 +142,7 @@ const PROJECTS = [
     description: "A compact biomedical prototype exploring optical monitoring of CD4 white blood cell levels, with a custom camera stand and electrical housing.",
     model3d: {
     src: "models/MOBIV.glb",
-    poster: "assets/auv-competition.webp",
+    poster: "assets/CAD_loading.webp",
     label: "3D VIEWER TEST",
     },
     thumbnail: "assets/biosensor-photo.webp",
@@ -174,7 +174,7 @@ const PROJECTS = [
     description: "An automated guided vehicle concept developed to move miniature trolleys using line following and ultrasonic trolley detection.",
     model3d: {
     src: "models/AGV.glb",
-    poster: "assets/auv-competition.webp",
+    poster: "assets/CAD_loading.webp",
     label: "3D VIEWER TEST",
     },
     thumbnail: "assets/agv-photo.webp",
@@ -205,14 +205,14 @@ const PROJECTS = [
     description: "A six-thruster AUV designed for underwater obstacle navigation and payload dropping at the Indonesian Underwater Robotics Contest (KRBAI) 2024.",
     model3d: {
         src: "models/MARVIC-GNR 2.glb",
-        poster: "assets/auv-cad.webp",
+        poster: "assets/CAD_loading.webp",
         label: "3D VIEWER TEST",
     },
     videos: [
       {
           type: "file",
           src: "videos/KRBAI.mp4",
-          poster: "assets/auv-pool.webp",
+          poster: "assets/vidthumbnail.webp",
           caption: "AUV PERFORMANCE IN KRBAI 2024"
       }
     ],
@@ -247,7 +247,7 @@ const PROJECTS = [
     description: "The team's first ROV prototype, turning early CAD and rapid fabrication into a waterproof, integrated underwater platform.",
     model3d: {
     src: "models/MARVIC 1.0.glb",
-    poster: "assets/auv-competition.webp",
+    poster: "assets/CAD_loading.webp",
     label: "3D VIEWER TEST",
     },
     thumbnail: "assets/MARVIC 1.0.webp",
