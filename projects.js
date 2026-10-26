@@ -103,11 +103,6 @@ const PROJECTS = [
     shortTitle: "MARVIC 2.5",
     tagline: "MECHANICAL PRECISION UNDER PRESSURE.",
     description: "An updated competition AUV with modular mechanical packaging and a servo-driven scissor mechanism to retrieve and release underwater payloads. Made to participate in the Singapore AUV Challenge 2025.",
-    model3d: {
-    src: "models/MARVIC 2.5.glb",
-    poster: "assets/CAD_loading.webp",
-    label: "3D VIEWER TEST",
-    },
     thumbnail: "assets/auv-competition.webp",
     imagePosition: "center 58%",
     gallery: [
@@ -135,11 +130,6 @@ const PROJECTS = [
     shortTitle: "CD4 MONITORING DEVICE",
     tagline: "PRECISION MECHANISMS FOR HUMAN HEALTH.",
     description: "A compact biomedical prototype exploring optical monitoring of CD4 white blood cell levels, with a custom camera stand and electrical housing.",
-    model3d: {
-    src: "models/MOBIV.glb",
-    poster: "assets/CAD_loading.webp",
-    label: "3D VIEWER TEST",
-    },
     thumbnail: "assets/biosensor-photo.webp",
     imagePosition: "center",
     gallery: [
@@ -198,11 +188,6 @@ const PROJECTS = [
     shortTitle: "MARVIC 2.0",
     tagline: "A VEHICLE BUILT TO COMPLETE THE MISSION.",
     description: "A six-thruster AUV designed for underwater obstacle navigation and payload dropping at the Indonesian Underwater Robotics Contest (KRBAI) 2024.",
-    model3d: {
-        src: "models/MARVIC-GNR 2.glb",
-        poster: "assets/CAD_loading.webp",
-        label: "3D VIEWER TEST",
-    },
     videos: [
       {
           type: "file",
@@ -240,11 +225,14 @@ const PROJECTS = [
     shortTitle: "MARVIC 1.0",
     tagline: "WHERE THE UNDERWATER JOURNEY BEGAN.",
     description: "The team's first ROV prototype, turning early CAD and rapid fabrication into a waterproof, integrated underwater platform.",
-    model3d: {
-    src: "models/MARVIC 1.0.glb",
-    poster: "assets/CAD_loading.webp",
-    label: "3D VIEWER TEST",
-    },
+    videos: [
+      {
+          type: "file",
+          src: "videos/MARVIC 1.0 DEMO.mp4",
+          poster: "assets/vidthumbnail.webp",
+          caption: "MARVIC 1.0 ROV DEMONSTRATION"
+      }
+    ],
     thumbnail: "assets/MARVIC 1.0.webp",
     imagePosition: "center",
     gallery: [
